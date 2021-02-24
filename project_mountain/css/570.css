@@ -1,0 +1,292 @@
+@media (max-width: 570px) {
+
+/***********************************************
+
+		HEADER
+
+************************************************/
+
+@media (orientation: landscape) {
+.header {
+	height: auto;
+}
+}
+
+.header__contant {
+	width: 90%;
+	margin-top: 80px;
+}
+
+@media (orientation: landscape) {
+.header__contant {
+	margin-bottom: 0;
+    padding-bottom: 80px;
+}
+}
+
+.header__contant h3 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.header__contant h1 {
+    font-size: 48px;
+    line-height: 54px;
+}
+
+.header__contant p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.header__logo {
+	flex: 0 0 200px;
+	max-width: 200px;
+}
+
+
+/***********************************************
+
+		SECTION FEAT
+
+************************************************/
+
+.section {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.feat .col-1 {
+	flex: 0 0 80%;
+	width: 80%;
+	box-sizing: border-box;
+	margin-bottom: 70px;
+}
+
+.feat .fa:before {
+    font-size: 52px;
+}
+
+.feat h3 {
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+.feat p {
+	text-align: left;
+	font-size: 18px;
+}
+
+
+.fluid {
+	margin-top: 50px;
+}
+
+
+/***********************************************
+
+		SECTION FLUID
+
+************************************************/
+
+.fluid {
+	margin-top: -60px;
+}
+
+.fluid__text h2 {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.fluid__text h3 {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.fluid__text p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.fluid__box {
+	margin-top: 46px;
+	flex: 0 0 46%;
+}	
+
+
+/***********************************************
+
+		SECTION NEWS
+
+************************************************/
+
+.news__contant {
+	flex: 0 0 100%;
+	width: 100%;
+}
+
+.news__contant h2 {
+    font-size: 28px;
+    margin-bottom: 18px;
+}
+
+.news__contant p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.news__photo {
+	flex: 0 0 100%;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+/********************************************
+
+	SECTION FLUID LEFT		
+
+********************************************/
+.flex-left .fluid__text h2 i {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.flex-left .fluid__text p i {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+
+.flex-left .fluid__text p {
+	margin-top: 20px;
+}
+
+.flex-left .fluid__text h2 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+/***********************************************
+
+		SECTION NEWS
+
+************************************************/
+.galary__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.galary__wrapper div {
+	margin-bottom: 10px;
+}
+
+.galary__img-1 {
+	width: 100%;
+	height: 240px;
+}
+
+.galary__img-2 {
+	width: 100%;
+	height: 500px;
+}
+
+.galary__img-3 {
+	width: 100%;
+	height: 500px;
+}
+
+.galary__img-4 {
+	width: 100%;
+	height: 240px;
+}
+
+.galary__img-5 {
+	width: 100%;
+	height: 400px;
+}
+
+.galary__img-6 {
+	width: 100%;
+	height: 240px;
+}
+
+.galary__img-7 {
+	width: 100%;
+	height: 180px;
+}
+
+/********************************************
+
+    SECTION LOGO        
+
+********************************************/
+
+.section-logo {
+    flex: 0 0 35%;
+    width: 35%;
+}
+/********************************************
+
+    SECTION FOOTER      
+
+********************************************/
+.prefooter__contant {
+    width: 100%;
+    padding: 30px 0 30px 0;
+}
+
+.prefooter__contant h2 {
+    font-size: 26px;
+}
+
+.prefooter__contant p {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.prefooter__contant input {
+    width: 220px;
+}
+
+.prefooter__contant .button-div {
+	width: 150px;
+    margin: 20px 0 0 0;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+/********************************************
+
+	SECTION FOOTER		
+
+********************************************/
+.footer__logo {
+    font-size: 32px;
+    padding-top: 42px;
+}
+
+.footer__company {
+    margin-top: 42px;
+    padding-bottom: 52px;
+}
+
+.footor__text p a, .footor__text p {
+	font-size: 16px;
+}
+
+.footor__social i {
+    font-size: 18px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.footor__social { text-align: center; }
+
+
+}   /* END  @media (max-width: 570px) */
